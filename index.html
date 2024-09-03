@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../_styles/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body> 
+    <nav class=" w-full fixed px-5  lg:px-8 xl:px[10%] py-4 flex items-center justify-between z-50" >
+        <h1 class="w-28 cursor-pointer mr-14 font-bold text-3xl">Thayub.</h1>
+        <ul class="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm ">
+            <li><a href="">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class=" border border-gray-600  px-2 p-2 w-40 rounded-full">Contact</button>
+    
+    </nav >
+    <main>
+    <div id="container" class="w-11/12 max-w-3xl mx-auto h-screen flex flex-col items-center justify center gap-4 ">
+        <img src="../../assets/images/profile.jpg" alt="" class="rounded-full w-32 mt-40 h-25">
+        <h3 class="flex items end gap-2 text-xl md:text 2xl mb-3">Hi! I'm Thayub</h3>
+        <h1 class="text 3xl sm:text-6xl lg:text-[55px]">frontend web developer</h1>
+        <p class="">i have strong passion for technology. I'm always eager to learn and</p>
+        <p class="flex justify-center mt-0">explore new tech trends</p>
+     <div>
+        <button class="py-3 px-8 w-max flex items-center justify-center gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500">Contact</button>
+
+     </div>
+    </div> 
+    <!--about me -->
+    <section>
+        <div id="about" class="w-full px-[1%] py-10  ml-10">
+            <h2 class="text-center  text-5xl ">About me</h2>
+            <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
+                <div class="max-w-max mx-auto relative">
+                    <img src="../../assets/images/profile.jpg" alt="" class="w-64 sm:w-80 rounded-3xl max-w-none">
+                </div>
+                <div class="flex-1">
+                    <p class="mb-10 max-w-2xl">I'm a passionate tech enthusiast currently diving into the world of frontend development. With a strong curiosity for how things work and a love for creating visually appealing and user-friendly interfaces, I'm excited to build my skills in HTML, CSS and beyond. My journey in technology is driven by a desire to innovate and continuously learn.
+    
+                    </p>
+                    <ul class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl" >
+                        <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff ] hover:translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
+                            <img src="../../assets/images/code-icon.png" alt="" class="w-7 mt-3">
+                            <h3 class="my-4 font semibold tex-gray-700">Languages</h3>
+                            <p class="text-gray-600 text-sm">HTML,CSS,SASS,TAILWIND CSS</p>
+                        </li>
+                      
+                        <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff ] hover:translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
+                            <img src="../../assets/images/edu-icon.png" alt="" class="w-7 mt-3">
+                            <h3 class="my-4 font semibold tex-gray-700">Education</h3>
+                            <p class="text-gray-600 text-sm">HSC</p>
+                        </li>
+                    
+                        
+                    </ul>
+    
+                </div>
+            </div>
+    
+        </div>
+
+
+
+        <div id="contact" class="w-full px-[12%] py-10 scroll-mt-20 bg-[url('../../assets/images/footer-bg-color.png')] bg-no-repeat bg-[length:90%_auto] bg-center">
+            <h2 class="text-center text-5xl">Connect with me</h2>
+            <p class="text-center max-w-2xl mx-auto mt-5 mb-12">
+                i 'd love to hear from you! if you have any questions, comments or feedback, please use the form below
+            </p>
+            <form action="" class="max-w-2xl mx-auto ">
+                <div class="grid grid-cols-2 gap-6 mt-10 mb-8">
+                    <input type="text" placeholder="Enter your name" required class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white" >
+                    <input type="email" placeholder="Enter your email" required class="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white">
+            
+                    
+                </div>
+
+                <textarea name="" id="" rows="6" placeholder="Enter you message" class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6"></textarea>
+                <button class="py-3 px-8 w-max flex items-center justify-center gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500">Submit</button>
+
+            </form>
+    
+    
+             
+        </div>
+    </section>
+   
+   
+
+   </main>
+   <footer class="mt-10">
+    <div class="tex-center sm:flex items-center justify-end border-t border-gray-400 mx-[10%] my-10 py-10">
+        <ul class="flex justify-around">
+            <li><a href="" class="m-5">Gmail</a></li>
+            <li><a href="" class="m-5">Instagram</a></li>
+            <li><a href="" class="m-5">LinkedIn</a></li>
+         
+        </ul>
+    </div>
+
+
+   </footer>
+</body>
+</html>
