@@ -15,4 +15,7 @@ body h1{
     font-size: 1.5rem;
 }
 
-
+body #second_cont{
+    display:flex;
+    justify-content: center;
+}
